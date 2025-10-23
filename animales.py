@@ -5,12 +5,10 @@ class animales:
         self.nombre= nombre
 
     def comer(self):
-        print("el animal esta comiendo")
+        pass
         
     def beber():
-        print("el animal esta tomando agua")
-
-
+        pass
 
 class perro(animales):
     def __init__(self, especie, edad, nombre):
