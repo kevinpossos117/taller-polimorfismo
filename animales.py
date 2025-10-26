@@ -10,6 +10,9 @@ class animales:
     def beber():
         pass
 
+    def hablar():
+        pass
+
 class perro(animales):
     def __init__(self, especie, edad, nombre):
         super().__init__(especie, edad, nombre)
