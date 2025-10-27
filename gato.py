@@ -1,11 +1,14 @@
 from animales import animales
 
-class perro(animales):
+class gato(animales):
     def __init__(self, especie, edad, nombre):
         super().__init__(especie, edad, nombre)
 
     def hablar(self):
-        print(f"{self.nombre} dice: wou wou")
+        print(f"{self.nombre} dice: miau")
+
+    def ronronear(self):
+        print("grgrgrgrgr")
 
     def comer(self):
-        print(f"{self.nombre} come croquetas")
+        print(f"{self.nombre} come atún enlatado")
